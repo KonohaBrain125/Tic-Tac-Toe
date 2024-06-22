@@ -21,8 +21,8 @@ module.exports = {
     "space-infix-ops": ["error", { "int32Hint": false }],
     "eqeqeq": ["error", "always"],
     "camelcase": ["error", { "properties": "never" }],
-    // "no-console": ["error"],
-    // "no-debugger": ["error"],
-    // "no-alert": ["error"],
+    "no-console": ["error"],
+    "no-debugger": ["error"],
+    "no-alert": ["error"],
   },
 }
